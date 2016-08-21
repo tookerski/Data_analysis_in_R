@@ -32,7 +32,7 @@
 
 #################################################################
 #1 读取数据
-setwd("D:/R_edu/data")
+setwd("E:/Data_analysis_in_R/data/No1raw_data")
 accepts=read.csv("accepts.csv")
 ##查看数据整体情况，进行数据预处理
 sapply(accepts,class)#查看数据类型
